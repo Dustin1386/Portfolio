@@ -33,6 +33,7 @@ ol, ul {
 	list-style: none;
 }
 
+
 blockquote, q {
 	quotes: none;
 }
@@ -229,7 +230,7 @@ input, select, textarea {
 			width: 900px;
 		}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 1800px) {
 
 			.container {
 				width: 1200px;
@@ -238,6 +239,7 @@ input, select, textarea {
 				.container.medium {
 					width: 900px;
 				}
+				
 
 		}
 
@@ -285,6 +287,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		margin-top: 15px;
 	}
 
 		.row > * {
@@ -442,7 +445,7 @@ input, select, textarea {
 		}
 
 			.row.gtr-25 > * {
-				padding: 6.25px 0 0 6.25px;
+				padding: 6.25px 0 15px 6.25px;
 			}
 
 			.row.gtr-25.gtr-uniform {
@@ -719,7 +722,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 25px 0 0 25px;
+						padding: 25px 0 15px 25px;
 					}
 
 					.row.gtr-uniform {
@@ -964,7 +967,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 25px 0 0 25px;
+						padding: 25px 0 15px 25px;
 					}
 
 					.row.gtr-uniform {
@@ -2343,7 +2346,7 @@ input, select, textarea {
 
 			.box {
 				padding: 30px 20px 30px 20px;
-				margin: 0 0 20px 0 !important;
+				margin: 15px 0 20px 15px !important;
 			}
 
 				.box h3 {
@@ -2374,6 +2377,10 @@ input, select, textarea {
 					max-height: 32em;
 					margin-left: auto !important;
 					margin-right: auto !important;
+					margin-top: 15px !important;
+				}
+				.col-4.col-6-medium.col-12-small{
+					margin-top:15px ;
 				}
 
 		/* Wrappers */
